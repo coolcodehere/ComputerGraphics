@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/will/projects/graphics/rec1/main.c
+stdio.h
+-
+stdlib.h
+-
+GL/glut.h
+-
+GL/gl.h
+-
+GL/glu.h
+-
+
